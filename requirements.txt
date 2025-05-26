@@ -9,3 +9,6 @@ pyaml
 dagshub
 mlflow
 scikit-learn
+fastapi
+uvicorn
+python-multipart #for uploading file in fast api
