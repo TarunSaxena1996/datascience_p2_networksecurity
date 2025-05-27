@@ -176,7 +176,7 @@ class ModelTrainer:
 
             model_trainer_artifact=self.train_model(x_train,y_train,x_test,y_test)
             return model_trainer_artifact
-
+    
             
         except Exception as e:
             raise NetworkSecurityException(e,sys)
